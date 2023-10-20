@@ -73,7 +73,7 @@ spec:
 ---
 apiVersion: v1
 kind: Service
-metadata:
+meta
   name: emailservice
 spec:
   type: ClusterIP
@@ -536,7 +536,7 @@ spec:
   selector:
     matchLabels:
       app: loadgenerator
-  replicas: 1
+  replicas: 3
   template:
     metadata:
       labels:
