@@ -1,0 +1,18 @@
+server:
+  retention: 15d
+  serviceMonitor:
+    enabled: true
+  service:
+    type: LoadBalancer
+
+alertmanager:
+  enabled: true
+
+nodeExporter:
+  enabled: true
+
+kubeStateMetrics:
+  enabled: true
+
+grafana:
+  enabled: true
